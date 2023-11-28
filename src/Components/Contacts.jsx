@@ -3,7 +3,7 @@ import React from 'react'
 const Contacts = () => {
     return (
         <>
-            <h2 className='font-bold text-3xl text-[blue] mt-28 px-6 max-w-screen-xl mx-auto'>Contacts</h2>
+            <h2 className='font-bold text-3xl text-blue-600 mt-28 px-6 max-w-screen-xl mx-auto'>Contacts</h2>
             <section id='contact' className='px-6 flex flex-col lg:flex-row lg:justify-between max-w-screen-xl mx-auto'>
                 <div className='lg:w-[40%]'>
                     <h2 class="mt-4 text-2xl font-extrabold tracking-wide mb-2">Get in touch</h2>
