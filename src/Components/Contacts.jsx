@@ -3,7 +3,7 @@ import React from 'react'
 const Contacts = () => {
     return (
         <>
-            <h2 className='font-bold text-3xl text-[blue] mt-28 px-6 max-w-screen-xl mx-auto'>Contacts</h2>
+            <h2 className='font-bold text-3xl text-blue-600 mt-28 px-6 max-w-screen-xl mx-auto'>Contact</h2>
             <section id='contact' className='px-6 flex flex-col lg:flex-row lg:justify-between max-w-screen-xl mx-auto'>
                 <div className='lg:w-[40%]'>
                     <h2 class="mt-4 text-2xl font-extrabold tracking-wide mb-2">Get in touch</h2>
@@ -60,8 +60,8 @@ const Contacts = () => {
                             <label htmlFor="email">Email</label>
                             <input type="email" class="w-full py-2 px-4 text-base font-normal border border-border rounded-md focus:outline-none focus:border-gray-600" />
                         </div>
-                        <div id='textarea' className='mt-2'>
-                            <label class="text-base font-medium text-text">Message</label>
+                        <div id='textarea' className='mt-4'>
+                            <label class="text-base">Message</label>
                             <textarea class="w-full py-2 px-4 text-base font-normal border rounded-md focus:outline-none focus:border-gray-600" rows="5">
                             </textarea>
                         </div>
