@@ -9,7 +9,7 @@ const Home = () => {
                     <p>I am a Passionate <span className='text-blue-600'>Web Developer</span></p>
                 </div>
                 <div className="right mt-16">
-                    <img className='w-[350px] block mx-auto' src="Images/Home-Img.png" alt="No Image" />
+                    <img className='w-[320px] sm:w-[350px] block mx-auto' src="Images/Home-Img.png" alt="No Image" />
                 </div>
             </div>
         </>
