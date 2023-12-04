@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
     return (
         <>
-            <h2 className='font-bold text-3xl text-[blue] mt-28 px-6 max-w-screen-xl mx-auto'>Projects</h2>
+            <h2 className='font-bold text-3xl text-blue-600 mt-28 px-6 max-w-screen-xl mx-auto'>Projects</h2>
             <section id='projects' className='px-6 md:mt-8 max-w-screen-xl mx-auto md:flex md:flex-col md:items-center'>
 
                 <div id='Calculator' className='border lg:w-[850px] border-gray-500 flex flex-col md:flex-row-reverse md:justify-between p-4 mt-4 rounded-md'>
