@@ -12,8 +12,8 @@ const Navbar = () => {
     const toggleMenu = () => {
         if (className === '-translate-x-full') {
             setClassName('-translate-x-0');
-            setTranslate('translate-y-[7px]');
-            setTranslate2('-translate-y-[3px]');
+            setTranslate('translate-y-[9px]');
+            setTranslate2('-translate-y-[1px]');
             setRotate('rotate-45');
             setRotate2('-rotate-45');
             setHide('hidden');
@@ -52,7 +52,7 @@ const Navbar = () => {
                         <a href='#' className='text-2xl cursor-pointer'>Jasmeet</a>
                     </div>
 
-                    <div className='flex space-x-4'>
+                    <div className='flex space-x-[13px] sm:space-x-4'>
                         <label className="swap swap-rotate">
 
                             {/* this hidden checkbox controls the state */}
@@ -75,7 +75,7 @@ const Navbar = () => {
                             <a href='#contact' className='cursor-pointer text-[#e0e2e4] hover:text-white'>Contact</a>
                         </ul>
 
-                        <div className="hamburger flex flex-col space-y-[6px] sm:hidden" onClick={toggleMenu}>
+                        <div className="hamburger mt-[2px] flex flex-col space-y-[6px] sm:hidden" onClick={toggleMenu}>
                             <span className={`line bg-white w-9 h-1 rounded-md transition-all duration-300 ${translate} ${rotate} `}></span>
                             <span className={`line bg-white w-9 h-1 rounded-md transition-all duration-300 ${hide}`}></span>
                             <span className={`line bg-white w-9 h-1 rounded-md transition-all duration-300 ${translate2} ${rotate2} `}></span>
