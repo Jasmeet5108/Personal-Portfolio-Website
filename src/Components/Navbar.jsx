@@ -46,7 +46,9 @@ const Navbar = () => {
 
     return (
         <>
-            <header className='bg-[#0101c4] px-2 sticky top-0 z-10'>
+            {/* <header className='bg-[#0101c4] px-2 sticky top-0 z-10'> */}
+            {/* <header className='bg-gradient-to-r from-[#00c6ff] to-[#0072ff] px-2 sticky top-0 z-10'> */}
+            <header className='bg-gradient-to-r from-[#0072ff] to-[#00c6ff] px-2 sticky top-0 z-10'>
                 <nav className='flex h-14 justify-between max-w-screen-xl mx-auto items-center text-white'>
                     <div className="left flex justify-center items-center space-x-2">
                         <a href='#' className='text-2xl cursor-pointer'>Jasmeet</a>

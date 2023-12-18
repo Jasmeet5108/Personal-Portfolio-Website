@@ -3,7 +3,7 @@ import React from 'react'
 const Contacts = () => {
     return (
         <>
-            <h2 className='font-bold text-3xl text-blue-600 mt-28 px-6 max-w-screen-xl mx-auto'>Contact</h2>
+            <h2 className='font-bold text-3xl blue-gradient_text mt-28 px-6 max-w-screen-xl mx-auto'>Contact</h2>
             <section id='contact' className='px-6 flex flex-col lg:flex-row lg:justify-between max-w-screen-xl mx-auto'>
                 <div className='lg:w-[40%]'>
                     <h2 class="mt-4 text-2xl font-extrabold tracking-wide mb-2">Get in touch</h2>
@@ -47,7 +47,7 @@ const Contacts = () => {
                     </div>
                     <div className='mt-6 '>
                         <p class="mb-4 text-lg font-bold">Contact me via email</p>
-                        <a className='bg-blue-600 hover:bg-blue-700 transition text-white rounded p-2 hover:cursor-pointer' href="mailto:jasmeet5108k@gmail.com">Tap to send an email</a>
+                        <a className='bg-gradient-to-r from-[#00c6ff] to-[#0072ff] hover:from-[#0072ff] hover:to-[#00c6ff] transition text-white rounded p-2 hover:cursor-pointer' href="mailto:jasmeet5108k@gmail.com">Tap to send an email</a>
                     </div>
                 </div>
                 <div id="form" className='my-16 lg:w-[40%]'>
@@ -65,7 +65,7 @@ const Contacts = () => {
                             <textarea class="w-full py-2 px-4 text-base font-normal border rounded-md focus:outline-none focus:border-gray-600" rows="5">
                             </textarea>
                         </div>
-                        <button type="submit" class="w-full py-4 px-6 mt-4 text-base font-semibold rounded-lg transition bg-blue-600 hover:bg-blue-700 text-white">Send Message</button>
+                        <button type="submit" class="w-full py-4 px-6 mt-4 text-base font-semibold rounded-lg transition-colors duration-300 bg-gradient-to-r from-[#00c6ff] to-[#0072ff] hover:from-[#0072ff] hover:to-[#00c6ff] text-white">Send Message</button>
                     </form>
                 </div>
             </section>
