@@ -61,7 +61,7 @@ const Contacts = () => {
                             <input type="email" class="w-full py-2 px-4 text-base font-normal border border-border rounded-md focus:outline-none focus:border-gray-600" />
                         </div>
                         <div id='textarea' className='mt-4'>
-                            <label class="text-base">Message</label>
+                            <label htmlFor="message">Message</label>
                             <textarea class="w-full py-2 px-4 text-base font-normal border rounded-md focus:outline-none focus:border-gray-600" rows="5">
                             </textarea>
                         </div>
