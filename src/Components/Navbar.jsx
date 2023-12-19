@@ -58,7 +58,6 @@ const Navbar = () => {
                             {/* this hidden checkbox controls the state */}
                             <input type="checkbox"
                                 onChange={handleToggle}
-                            // checked={theme === 'light' ? false : true}
                             />
 
                             {/* sun icon */}
@@ -84,7 +83,7 @@ const Navbar = () => {
 
                 </nav>
             </header>
-            <div className={`sideMenu sticky top-14 sm:hidden bg-[#0101c4] text-center text-white ${className} transition-all duration-[400ms]`}>
+            <div className={`sideMenu sticky top-14 sm:hidden bg-gradient-to-r from-[#0072ff] to-[#00c6ff] text-center text-white ${className} transition-all duration-[400ms]`}>
                 <ul className='flex flex-col space-y-3 py-2 text-lg'>
                     <a href='#'>Home</a>
                     <a href='#skills'>Skills</a>
