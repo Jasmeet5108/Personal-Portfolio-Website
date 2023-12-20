@@ -50,7 +50,7 @@ const Contacts = () => {
                         <a className='bg-gradient-to-r from-[#00c6ff] to-[#0072ff] hover:from-[#0072ff] hover:to-[#00c6ff] transition text-white rounded p-2 hover:cursor-pointer' href="mailto:jasmeet5108k@gmail.com">Tap to send an email</a>
                     </div>
                 </div>
-                <div id="form" className='my-16 lg:w-[40%]'>
+                <div id="form" className='my-16 lg:w-[500px]'>
                     <form>
                         <div id="name" className='flex flex-col'>
                             <label htmlFor="name">Name</label>
