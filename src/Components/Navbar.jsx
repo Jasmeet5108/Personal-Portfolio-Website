@@ -3,28 +3,13 @@ import React, { useEffect, useState } from 'react'
 const Navbar = () => {
     const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light");
     const [className, setClassName] = useState('-translate-x-full');
-    const [rotate, setRotate] = useState('rotate-0');
-    const [hide, setHide] = useState('');
-    const [rotate2, setRotate2] = useState('-rotate-0');
-    const [translate, setTranslate] = useState('translate-y-0');
-    const [translate2, setTranslate2] = useState('-translate-y-0');
 
     const toggleMenu = () => {
         if (className === '-translate-x-full') {
             setClassName('-translate-x-0');
-            setTranslate('translate-y-[9px]');
-            setTranslate2('-translate-y-[1px]');
-            setRotate('rotate-45');
-            setRotate2('-rotate-45');
-            setHide('hidden');
         }
         else {
             setClassName('-translate-x-full');
-            setTranslate('translate-y-0');
-            setTranslate2('-translate-y-0');
-            setRotate('rotate-0');
-            setRotate2('-rotate-0');
-            setHide('');
         }
     }
 
@@ -75,9 +60,9 @@ const Navbar = () => {
                         </ul>
 
                         <div className="hamburger mt-[2px] flex flex-col space-y-[6px] sm:hidden" onClick={toggleMenu}>
-                            <span className={`line bg-white w-9 h-1 rounded-md transition-all duration-300 ${translate} ${rotate} `}></span>
-                            <span className={`line bg-white w-9 h-1 rounded-md transition-all duration-300 ${hide}`}></span>
-                            <span className={`line bg-white w-9 h-1 rounded-md transition-all duration-300 ${translate2} ${rotate2} `}></span>
+                            <span className={`line bg-white w-9 h-1 rounded-md transition-all duration-300 ${className === '-translate-x-0' ? "translate-y-[9px]" : "translate-y-0"} ${className === '-translate-x-0' ? "rotate-45" : "rotate-0"} `}></span>
+                            <span className={`line bg-white w-9 h-1 rounded-md transition-all duration-300 ${className === '-translate-x-0' ? "hidden" : ""}`}></span>
+                            <span className={`line bg-white w-9 h-1 rounded-md transition-all duration-300 ${className === '-translate-x-0' ? "-translate-y-[1px]" : "-translate-y-0"} ${className === '-translate-x-0' ? "-rotate-45" : "-rotate-0"} `}></span>
                         </div>
                     </div>
 
