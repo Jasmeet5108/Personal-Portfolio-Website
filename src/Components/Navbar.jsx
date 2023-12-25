@@ -68,7 +68,7 @@ const Navbar = () => {
 
                 </nav>
             </header>
-            <div className={`sideMenu sticky top-14 sm:hidden bg-gradient-to-r from-[#00c6ff] to-[#0072ff] text-center text-white ${className} transition-all duration-[400ms]`}>
+            <div className={`sideMenu z-10 sticky top-14 sm:hidden bg-gradient-to-r from-[#00c6ff] to-[#0072ff] text-center text-white ${className} transition-all duration-[400ms]`}>
                 <ul className='flex flex-col space-y-3 py-2 text-lg'>
                     <a href='#'>Home</a>
                     <a href='#skills'>Skills</a>
