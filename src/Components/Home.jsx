@@ -16,7 +16,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="right mt-16">
-                    <img className='w-[320px] sm:w-[350px] lg:w-[400px] block mx-auto' src="Images/Home-Img.png" alt="No Image" />
+                    <img className='w-[320px] sm:w-[350px] lg:w-[400px] block mx-auto' loading='lazy' src="Images/Home-Img.png" alt="No Image" />
                 </div>
             </div>
         </>
