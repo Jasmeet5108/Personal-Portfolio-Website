@@ -14,15 +14,6 @@ const Contacts = () => {
                     <div className='mt-6 '>
                         <p class="mb-4 text-lg font-bold">Contact me via social</p>
                         <div className='flex items-center gap-2'>
-                            <a class="group-hover" title="Mail at jasmeet5108k@gmail.com" href="mailto:jasmeet5108k@gmail.com">
-                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M19.0645 18.3609C18.8964 18.4789 18.6982 18.5379 18.5 18.5379C18.3017 18.5379 18.1036 18.4789 17.9355 18.3609L9.90909 12.7201L8.00006 11.3785L8 24.3315C8.00006 24.8367 8.42738 25.2463 8.95454 25.2463L28.0455 25.2462C28.5727 25.2462 29 24.8366 29 24.3315V11.3784L27.0909 12.7201L19.0645 18.3609Z" fill="#7E7E7E">
-                                    </path>
-                                    <path d="M18.4986 16.4888L27.7313 10.0001L9.26562 10L18.4986 16.4888Z" fill="#7E7E7E"></path>
-                                    <circle cx="18" cy="18" r="17.5" stroke="#AEAEAE"></circle>
-                                </svg>
-                            </a>
-
                             <a target="_blank" title="Github link" href="https://github.com/Jasmeet5108">
                                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="18" cy="18" r="17.5" stroke="#AEAEAE"></circle>
@@ -30,7 +21,7 @@ const Contacts = () => {
                                 </svg>
                             </a>
 
-                            <a target="_blank" title="Linkedin link" href="https://www.linkedin.com/in/jasmeet-singh-a02511288/">
+                            <a target="_blank" title="Linkedin link" href="https://www.linkedin.com/in/jasmeetsingh752">
                                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M9.0203 25.9999H12.8135V12.4319H9.0203V25.9999ZM23.7978 11.962C21.957 11.962 20.3098 12.6834 19.1413 14.2759V12.3873H15.3343V26H19.1413V18.6386C19.1413 17.0829 20.4695 15.5652 22.133 15.5652C23.7966 15.5652 24.2068 17.0829 24.2068 18.6006V25.9987H28V18.2976C27.9999 12.9483 25.64 11.962 23.7978 11.962ZM10.8992 11.076C11.9475 11.076 12.7983 10.163 12.7983 9.03795C12.7983 7.91293 11.9475 7 10.8992 7C9.85084 7 9 7.91308 9 9.0381C9 10.1631 9.85084 11.076 10.8992 11.076Z" fill="#7B7B7B"></path>
                                     <circle cx="18" cy="18" r="17.5" stroke="#AEAEAE"></circle>
