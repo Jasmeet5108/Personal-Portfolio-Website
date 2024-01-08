@@ -5,7 +5,7 @@ const Footer = () => {
         <div>
             <footer class="border-t-2 border-border">
                 <div class="max-w-screen-xl mx-auto px-4 py-4 md:px-0 md:py-8 flex justify-between items-center">
-                    <div class="text-sm md:text-normal">© Copyright 2023</div>
+                    <div class="text-sm md:text-normal">© Copyright 2024</div>
                     <div class="flex items-center gap-2">
                         <a target="_blank" title="Github" href="https://github.com/Jasmeet5108">
                             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
